@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 {
-  font-size: 36px;
+  font-size: 30px;
   margin: 0;
   padding: 6px 0;
   line-height: 1;
@@ -1640,4 +1640,33 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+/* Custom CSS */
+
+.red-button {
+  color: #fff !important;
+  background: #f82249;
+  padding: 7px 22px;
+  border-radius: 50px;
+  border: 2px solid #f82249;
+  transition: all ease-in-out 0.3s;
+  font-weight: 500;
+  margin-left: 8px;
+  margin-top: 2px;
+  line-height: 1;
+  font-size: 13px;
+}
+
+.red-button:hover a {
+  background: none;
+  color: #fff;
+}
+
+.red-button:hover a:before {
+  visibility: hidden;
+}
+
+.red-button a {
+  color: #fff;
 }
