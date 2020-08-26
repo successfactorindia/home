@@ -502,7 +502,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: absolute;
   bottom: 0;
   left: 0;
-  top: 90px;
+  top: 0;
   right: 0;
   display: flex;
   justify-content: center;
@@ -1669,4 +1669,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .red-button a {
   color: #fff;
+}
+
+#speakers .img-fluid{
+  height: 300px;
 }
