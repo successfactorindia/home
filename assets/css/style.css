@@ -1376,12 +1376,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #f82249;
 }
 
-#contact .contact-address, #contact .contact-phone, #contact .contact-email {
+#contact .contact-whatsapp, #contact .contact-phone, #contact .contact-email {
   margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
-  #contact .contact-address, #contact .contact-phone, #contact .contact-email {
+  #contact .contact-whatsapp, #contact .contact-phone, #contact .contact-email {
     padding: 20px 0;
   }
 }
@@ -1655,7 +1655,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 8px;
   margin-top: 2px;
   line-height: 1;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .red-button:hover a {
