@@ -490,7 +490,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(6, 12, 34, 0.9);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -539,7 +539,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro p {
   color: #ebebeb;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
+  margin-bottom: 44px;
 }
 
 @media (max-width: 991px) {
@@ -639,6 +640,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .about-btn:hover {
   background: #f82249;
   color: #fff;
+  padding: 40px;
 }
 
 @-webkit-keyframes pulsate-btn {
@@ -1647,7 +1649,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .red-button {
   color: #fff !important;
   background: #f82249;
-  padding: 7px 22px;
+  padding: 12px 32px;
   border-radius: 50px;
   border: 2px solid #f82249;
   transition: all ease-in-out 0.3s;
@@ -1655,7 +1657,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 8px;
   margin-top: 2px;
   line-height: 1;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .red-button:hover a {
