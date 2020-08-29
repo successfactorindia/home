@@ -14,6 +14,10 @@
     }
   });
 
+  $(function() {
+    $('.img-fluid').Lazy();
+  });
+
   setTimeout(function(){$('.back-to-top').fadeIn('slow')}, 800);
 
   // Header fixed on scroll
